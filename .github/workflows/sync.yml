@@ -2,7 +2,7 @@ name: Sync FedACH mirror
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,69 +14,242 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch FedACH participants file from Federal Reserve
+      - name: Fetch FedACH participants from Federal Reserve directory
         run: |
-          for i in 1 2 3; do
-            echo "Attempt $i..."
-            HTTP_CODE=$(curl -s -L -w "%{http_code}" \
-              -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" \
-              -o fedach.txt \
-              "https://www.frbservices.org/EPaymentsDirectory/FedACHdir.txt")
-            echo "HTTP status: $HTTP_CODE"
-            SIZE=$(wc -c < fedach.txt)
-            echo "Size: $SIZE bytes"
-            if [ "$HTTP_CODE" = "200" ] && [ "$SIZE" -gt 100000 ]; then
-              echo "Fetch successful"
-              break
-            fi
-            head -c 500 fedach.txt || true
-            echo ""
-            if [ "$i" = "3" ]; then
-              echo "All retries failed"
-              exit 1
-            fi
-            sleep 10
-          done
-
-      - name: Convert fixed-width to JSON
-        run: |
-          python3 <<'EOF'
+          cat > sync_fedach.py <<'PY'
           import json
-          rows = []
-          with open('fedach.txt', 'r', encoding='latin-1') as f:
-              for line in f:
-                  if len(line) < 155:
-                      continue
-                  rows.append({
-                      "routingNumber": line[0:9].strip(),
-                      "officeCode":    line[9:10].strip(),
-                      "servicingFRB":  line[10:19].strip(),
-                      "recordType":    line[19:20].strip(),
-                      "changeDate":    line[20:26].strip(),
-                      "newRoutingNumber": line[26:35].strip(),
-                      "customerName":  line[35:71].strip(),
-                      "address":       line[71:107].strip(),
-                      "city":          line[107:127].strip(),
-                      "state":         line[127:129].strip(),
-                      "zipcode":       line[129:134].strip(),
-                      "zipExt":        line[134:138].strip(),
-                      "phoneAreaCode": line[138:141].strip(),
-                      "phonePrefix":   line[141:144].strip(),
-                      "phoneSuffix":   line[144:148].strip(),
-                      "statusCode":    line[148:149].strip(),
-                      "dataViewCode":  line[149:150].strip(),
-                  })
-          with open('fedach.json', 'w') as f:
-              json.dump(rows, f)
-          print(f"Wrote {len(rows)} records")
-          EOF
-          rm fedach.txt
+          import re
+          import time
+          from datetime import datetime, timezone
+          from html import unescape
+          from html.parser import HTMLParser
+          from http.cookiejar import CookieJar
+          from urllib.parse import urlencode, urljoin
+          from urllib.request import HTTPCookieProcessor, Request, build_opener
+
+          BASE = "https://www.frbservices.org/EPaymentsDirectory/"
+          HEADERS = {
+              "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          }
+
+          cookie_jar = CookieJar()
+          opener = build_opener(HTTPCookieProcessor(cookie_jar))
+
+          def fetch(path, method="GET", data=None):
+              url = urljoin(BASE, path)
+              body = None
+              headers = dict(HEADERS)
+
+              if data is not None:
+                  body = urlencode(data).encode("utf-8")
+                  headers["Content-Type"] = "application/x-www-form-urlencoded"
+
+              req = Request(url, data=body, headers=headers, method=method)
+
+              with opener.open(req, timeout=60) as response:
+                  return response.read().decode("ISO-8859-1", errors="replace")
+
+          def clean(text):
+              return unescape(re.sub(r"\s+", " ", text or "")).strip()
+
+          def digits(text):
+              return re.sub(r"\D", "", text or "")
+
+          class FedACHParser(HTMLParser):
+              def __init__(self):
+                  super().__init__(convert_charrefs=True)
+                  self.select_id = None
+                  self.current_option = None
+                  self.current_option_text = []
+                  self.options = {"stateMenu": [], "cityMenu": []}
+                  self.effective_date = ""
+                  self.in_effective_date = False
+                  self.effective_parts = []
+                  self.in_results_row = False
+                  self.in_td = False
+                  self.current_cell = []
+                  self.current_cells = []
+                  self.current_href = ""
+                  self.rows = []
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+
+                  if tag == "select":
+                      element_id = attrs.get("id")
+                      if element_id in self.options:
+                          self.select_id = element_id
+
+                  elif tag == "option" and self.select_id:
+                      self.current_option = attrs.get("value", "")
+                      self.current_option_text = []
+
+                  elif tag in ("p", "li") and attrs.get("id") == "effective_date":
+                      self.in_effective_date = True
+                      self.effective_parts = []
+
+                  elif tag == "tr" and (attrs.get("id") or "").startswith("result_row_"):
+                      self.in_results_row = True
+                      self.current_cells = []
+                      self.current_href = ""
+
+                  elif self.in_results_row and tag == "td":
+                      self.in_td = True
+                      self.current_cell = []
+
+                  elif self.in_results_row and tag == "a":
+                      href = attrs.get("href", "")
+                      if "aba=" in href:
+                          self.current_href = href
+
+              def handle_data(self, data):
+                  if self.current_option is not None:
+                      self.current_option_text.append(data)
+
+                  if self.in_effective_date:
+                      self.effective_parts.append(data)
+
+                  if self.in_td:
+                      self.current_cell.append(data)
+
+              def handle_endtag(self, tag):
+                  if tag == "option" and self.current_option is not None and self.select_id:
+                      value = clean(self.current_option)
+                      label = clean(" ".join(self.current_option_text))
+
+                      if value and value != " " and "select" not in label.lower():
+                          self.options[self.select_id].append(value)
+
+                      self.current_option = None
+                      self.current_option_text = []
+
+                  elif tag == "select":
+                      self.select_id = None
+
+                  elif tag in ("p", "li") and self.in_effective_date:
+                      self.effective_date = clean(" ".join(self.effective_parts))
+                      self.in_effective_date = False
+
+                  elif self.in_results_row and tag == "td":
+                      self.current_cells.append(clean(" ".join(self.current_cell)))
+                      self.in_td = False
+                      self.current_cell = []
+
+                  elif self.in_results_row and tag == "tr":
+                      cells = self.current_cells
+
+                      if len(cells) >= 5:
+                          routing = digits(cells[1])
+                          match = re.search(r"aba=(\d{9})", self.current_href)
+
+                          if len(routing) != 9 and match:
+                              routing = match.group(1)
+
+                          if len(routing) == 9:
+                              self.rows.append({
+                                  "routingNumber": routing,
+                                  "customerName": cells[2],
+                                  "address": "",
+                                  "city": cells[3],
+                                  "stateCode": cells[4],
+                                  "postalCode": "",
+                                  "postalCodeExtension": "",
+                              })
+
+                      self.in_results_row = False
+                      self.current_cells = []
+                      self.current_href = ""
+
+          def parse(html):
+              parser = FedACHParser()
+              parser.feed(html)
+              return parser
+
+          def search(state, city=" "):
+              query = urlencode({
+                  "bank": "",
+                  "routingNumber": "",
+                  "state": state,
+                  "city": city or " ",
+                  "submitButton": "Search",
+                  "referredBy": "searchAchPage",
+              })
+
+              return fetch("achResults.html?" + query)
+
+          def main():
+              fetch("search.html")
+              fetch("submitAgreement", method="POST", data={"agreementValue": "Agree"})
+
+              search_page = fetch("search.html")
+              parsed_search = parse(search_page)
+              states = sorted(set(parsed_search.options["stateMenu"]))
+
+              if not states:
+                  raise RuntimeError("Could not read states from Federal Reserve directory")
+
+              by_routing = {}
+
+              for state in states:
+                  html = search(state)
+                  parsed = parse(html)
+
+                  if "more than 499 FedACH Participants" in html:
+                      cities = sorted(set(parsed.options["cityMenu"]))
+
+                      if not cities:
+                          raise RuntimeError(f"{state} has over 499 results, but no city list was found")
+
+                      print(f"{state}: over 499 results; fetching {len(cities)} cities")
+
+                      for city in cities:
+                          city_rows = parse(search(state, city)).rows
+
+                          for row in city_rows:
+                              by_routing[row["routingNumber"]] = row
+
+                          time.sleep(0.03)
+
+                  else:
+                      print(f"{state}: {len(parsed.rows)} records")
+
+                      for row in parsed.rows:
+                          by_routing[row["routingNumber"]] = row
+
+                  time.sleep(0.05)
+
+              rows = sorted(by_routing.values(), key=lambda row: row["routingNumber"])
+
+              if len(rows) < 5000:
+                  raise RuntimeError(f"Only collected {len(rows)} records; refusing to write incomplete mirror")
+
+              output = {
+                  "source": "Federal Reserve E-Payments Routing Directory",
+                  "effectiveDate": parsed_search.effective_date,
+                  "syncedAt": datetime.now(timezone.utc).isoformat(),
+                  "achParticipants": rows,
+              }
+
+              with open("fedach.json", "w", encoding="utf-8") as f:
+                  json.dump(output, f, ensure_ascii=False, indent=2)
+                  f.write("\n")
+
+              print(f"Wrote {len(rows)} records")
+
+          if __name__ == "__main__":
+              main()
+          PY
+
+          python3 sync_fedach.py
+          rm sync_fedach.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add fedach.json
+
           if git diff --cached --quiet; then
             echo "No changes"
           else
