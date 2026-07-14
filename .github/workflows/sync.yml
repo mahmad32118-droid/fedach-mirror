@@ -2,8 +2,8 @@ name: Sync FedACH mirror
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # runs daily at 06:00 UTC; change if you want
-  workflow_dispatch:        # allows you to click “Run workflow” manually
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,40 +11,75 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Fetch FedACH from Moov
+      - name: Fetch FedACH participants file from Federal Reserve
         run: |
           for i in 1 2 3; do
             echo "Attempt $i..."
             HTTP_CODE=$(curl -s -L -w "%{http_code}" \
               -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" \
-              -H "Accept: application/json" \
-              -o fedach.json \
-              "https://api.moov.io/fed/ach/search?name=&limit=100000")
+              -o fedach.txt \
+              "https://www.frbservices.org/EPaymentsDirectory/FedACHdir.txt")
             echo "HTTP status: $HTTP_CODE"
-            if [ "$HTTP_CODE" = "200" ] && [ $(wc -c < fedach.json) -gt 100000 ]; then
+            SIZE=$(wc -c < fedach.txt)
+            echo "Size: $SIZE bytes"
+            if [ "$HTTP_CODE" = "200" ] && [ "$SIZE" -gt 100000 ]; then
               echo "Fetch successful"
-              exit 0
+              break
             fi
-            echo "Failed attempt $i (status=$HTTP_CODE, size=$(wc -c < fedach.json))"
-            head -c 500 fedach.json || true
+            head -c 500 fedach.txt || true
+            echo ""
+            if [ "$i" = "3" ]; then
+              echo "All retries failed"
+              exit 1
+            fi
             sleep 10
           done
-          echo "All retries failed"
-          exit 1
 
-      - name: Commit and push fedach.json
+      - name: Convert fixed-width to JSON
+        run: |
+          python3 <<'EOF'
+          import json
+          rows = []
+          with open('fedach.txt', 'r', encoding='latin-1') as f:
+              for line in f:
+                  if len(line) < 155:
+                      continue
+                  rows.append({
+                      "routingNumber": line[0:9].strip(),
+                      "officeCode":    line[9:10].strip(),
+                      "servicingFRB":  line[10:19].strip(),
+                      "recordType":    line[19:20].strip(),
+                      "changeDate":    line[20:26].strip(),
+                      "newRoutingNumber": line[26:35].strip(),
+                      "customerName":  line[35:71].strip(),
+                      "address":       line[71:107].strip(),
+                      "city":          line[107:127].strip(),
+                      "state":         line[127:129].strip(),
+                      "zipcode":       line[129:134].strip(),
+                      "zipExt":        line[134:138].strip(),
+                      "phoneAreaCode": line[138:141].strip(),
+                      "phonePrefix":   line[141:144].strip(),
+                      "phoneSuffix":   line[144:148].strip(),
+                      "statusCode":    line[148:149].strip(),
+                      "dataViewCode":  line[149:150].strip(),
+                  })
+          with open('fedach.json', 'w') as f:
+              json.dump(rows, f)
+          print(f"Wrote {len(rows)} records")
+          EOF
+          rm fedach.txt
+
+      - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add fedach.json
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
-            git commit -m "Update fedach.json [skip ci]"
+            git commit -m "Update FedACH mirror"
             git push
           fi
