@@ -1,0 +1,28 @@
+name: Sync FedACH
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch FedACH from Moov
+        run: |
+          curl -sSf "https://api.moov.io/fed/ach/search?name=&limit=100000" \
+            -H "Accept: application/json" \
+            -o fedach.json
+          # sanity check
+          test $(wc -c < fedach.json) -gt 100000
+      - name: Commit if changed
+        run: |
+          git config user.name  "fedach-mirror-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add fedach.json
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "sync $(date -u +%Y-%m-%d)"
+          git push
