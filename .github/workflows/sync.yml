@@ -1,28 +1,50 @@
-name: Sync FedACH
+name: Sync FedACH mirror
+
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC daily
-  workflow_dispatch:
+    - cron: '0 6 * * *'   # runs daily at 06:00 UTC; change if you want
+  workflow_dispatch:        # allows you to click “Run workflow” manually
+
+permissions:
+  contents: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
+
       - name: Fetch FedACH from Moov
         run: |
-          curl -sSf "https://api.moov.io/fed/ach/search?name=&limit=100000" \
-            -H "Accept: application/json" \
-            -o fedach.json
-          # sanity check
-          test $(wc -c < fedach.json) -gt 100000
-      - name: Commit if changed
+          for i in 1 2 3; do
+            echo "Attempt $i..."
+            HTTP_CODE=$(curl -s -L -w "%{http_code}" \
+              -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" \
+              -H "Accept: application/json" \
+              -o fedach.json \
+              "https://api.moov.io/fed/ach/search?name=&limit=100000")
+            echo "HTTP status: $HTTP_CODE"
+            if [ "$HTTP_CODE" = "200" ] && [ $(wc -c < fedach.json) -gt 100000 ]; then
+              echo "Fetch successful"
+              exit 0
+            fi
+            echo "Failed attempt $i (status=$HTTP_CODE, size=$(wc -c < fedach.json))"
+            head -c 500 fedach.json || true
+            sleep 10
+          done
+          echo "All retries failed"
+          exit 1
+
+      - name: Commit and push fedach.json
         run: |
-          git config user.name  "fedach-mirror-bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add fedach.json
-          git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "sync $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update fedach.json [skip ci]"
+            git push
+          fi
