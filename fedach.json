@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 14, 2026.",
-  "syncedAt": "2026-07-15T07:57:04.698342+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is July 15, 2026.",
+  "syncedAt": "2026-07-16T08:01:34.862725+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -83420,6 +83420,15 @@
       "customerName": "NORTH BAY CREDIT UNION",
       "address": "",
       "city": "SANTA ROSA",
+      "stateCode": "CA",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
+      "routingNumber": "121182920",
+      "customerName": "HAVEN FEDERAL CR UN",
+      "address": "",
+      "city": "SAN FRANCISCO",
       "stateCode": "CA",
       "postalCode": "",
       "postalCodeExtension": ""
