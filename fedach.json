@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 15, 2026.",
-  "syncedAt": "2026-07-16T08:01:34.862725+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is July 16, 2026.",
+  "syncedAt": "2026-07-17T07:57:40.952446+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -101246,7 +101246,7 @@
     },
     {
       "routingNumber": "226078379",
-      "customerName": "SELF RELIANCE NEW YORK F.C.U.",
+      "customerName": "SELF RELIANCE FINANCIAL FCU",
       "address": "",
       "city": "NEW YORK",
       "stateCode": "NY",
@@ -104261,7 +104261,7 @@
     },
     {
       "routingNumber": "236084832",
-      "customerName": "SELF RELIANCE NEW YORK FCU",
+      "customerName": "SELF RELIANCE FINANCIAL FCU",
       "address": "",
       "city": "NEW YORK",
       "stateCode": "NY",
@@ -111344,7 +111344,7 @@
     },
     {
       "routingNumber": "252076646",
-      "customerName": "SELF RELIANCE NEW YORK FCU",
+      "customerName": "SELF RELIANCE FINANCIAL FCU",
       "address": "",
       "city": "NEW YORK",
       "stateCode": "NY",
@@ -148721,7 +148721,7 @@
     },
     {
       "routingNumber": "322282098",
-      "customerName": "SCHOOLS FIRST FEDERAL CREDIT UNION",
+      "customerName": "SCHOOLSFIRST FEDERAL CREDIT UNION",
       "address": "",
       "city": "TUSTIN",
       "stateCode": "CA",
