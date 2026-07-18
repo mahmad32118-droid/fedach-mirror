@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 16, 2026.",
-  "syncedAt": "2026-07-17T07:57:40.952446+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is July 17, 2026.",
+  "syncedAt": "2026-07-18T07:33:20.231441+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -36261,15 +36261,6 @@
       "address": "",
       "city": "CINCINNATI",
       "stateCode": "OH",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "071909091",
-      "customerName": "BUSEY BANK",
-      "address": "",
-      "city": "CHAMPAIGN",
-      "stateCode": "IL",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84456,15 +84447,6 @@
       "address": "",
       "city": "HICKSVILLE",
       "stateCode": "NY",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122105825",
-      "customerName": "BUSEY BANK",
-      "address": "",
-      "city": "CHAMPAIGN",
-      "stateCode": "IL",
       "postalCode": "",
       "postalCodeExtension": ""
     },
