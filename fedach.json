@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 17, 2026.",
-  "syncedAt": "2026-07-20T08:46:55.772346+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is July 20, 2026.",
+  "syncedAt": "2026-07-21T08:14:31.394152+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -3380,7 +3380,7 @@
     },
     {
       "routingNumber": "021302648",
-      "customerName": "TOMPKINS TRUST COMPANY",
+      "customerName": "TOMPKINS BANK & TRUST",
       "address": "",
       "city": "ITHACA",
       "stateCode": "NY",
@@ -5180,7 +5180,7 @@
     },
     {
       "routingNumber": "021911398",
-      "customerName": "TOMPKINS COMMUNITY BANK",
+      "customerName": "TOMPKINS BANK & TRUST",
       "address": "",
       "city": "ITHACA",
       "stateCode": "NY",
@@ -5486,7 +5486,7 @@
     },
     {
       "routingNumber": "022306818",
-      "customerName": "TOMPKINS COMMUNITY BANK",
+      "customerName": "TOMPKINS BANK & TRUST",
       "address": "",
       "city": "ITHACA",
       "stateCode": "NY",
@@ -8852,7 +8852,7 @@
     },
     {
       "routingNumber": "031312194",
-      "customerName": "TOMPKINS COMMUNITY BANK",
+      "customerName": "TOMPKINS BANK & TRUST",
       "address": "",
       "city": "ITHACA",
       "stateCode": "NY",
@@ -42565,15 +42565,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "073923143",
-      "customerName": "LINCOLN SAVINGS BANK",
-      "address": "",
-      "city": "WATERLOO",
-      "stateCode": "IA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "073923156",
       "customerName": "LINCOLN SAVINGS BANK",
       "address": "",
@@ -48983,9 +48974,9 @@
     },
     {
       "routingNumber": "081916058",
-      "customerName": "STATE BANK OF ST JACOB",
+      "customerName": "BRADFORD NATIONAL BANK",
       "address": "",
-      "city": "ST JACOB",
+      "city": "GREENVILLE",
       "stateCode": "IL",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -59506,7 +59497,7 @@
       "routingNumber": "091911548",
       "customerName": "FIRST RESOURCE BANK",
       "address": "",
-      "city": "WYOMING",
+      "city": "LINO LAKES",
       "stateCode": "MN",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -73904,9 +73895,9 @@
     },
     {
       "routingNumber": "111302600",
-      "customerName": "KEYSTONE BANK, NATIONAL ASSOCIATION",
+      "customerName": "THIRD COAST BANK",
       "address": "",
-      "city": "AUSTIN",
+      "city": "HUMBLE",
       "stateCode": "TX",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -81599,9 +81590,9 @@
     },
     {
       "routingNumber": "114926151",
-      "customerName": "KEYSTONE BANK, NATIONAL ASSOCIATION",
+      "customerName": "THIRD COAST BANK",
       "address": "",
-      "city": "AUSTIN",
+      "city": "HUMBLE",
       "stateCode": "TX",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -87062,10 +87053,10 @@
     },
     {
       "routingNumber": "123006965",
-      "customerName": "ZIONS BANCORPORATION, NA DBA THE COM",
+      "customerName": "ZIONS BANCORPORATION, NA DBA COMMERC",
       "address": "",
-      "city": "PORTLAND",
-      "stateCode": "OR",
+      "city": "MIDVALE",
+      "stateCode": "UT",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -88772,10 +88763,10 @@
     },
     {
       "routingNumber": "125008013",
-      "customerName": "ZIONS BANCORPORATION, NA DBA THE COM",
+      "customerName": "ZIONS BANCORPORATION, NA DBA COMMERC",
       "address": "",
-      "city": "SEATTLE",
-      "stateCode": "WA",
+      "city": "MIDVALE",
+      "stateCode": "UT",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -108941,10 +108932,10 @@
     },
     {
       "routingNumber": "243385935",
-      "customerName": "COMMONROOTS FEDERAL CREDIT UNION",
+      "customerName": "CHRISTIAN FAMILY CREDIT UNION, INC",
       "address": "",
-      "city": "CRANBERRY TWP",
-      "stateCode": "PA",
+      "city": "NORTH CANTON",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
