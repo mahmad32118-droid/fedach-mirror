@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 23, 2026.",
-  "syncedAt": "2026-07-24T08:14:07.889956+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is July 24, 2026.",
+  "syncedAt": "2026-07-25T07:56:41.114982+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -151675,7 +151675,7 @@
       "routingNumber": "325180870",
       "customerName": "HARBORSTONE CREDIT UNION",
       "address": "",
-      "city": "TACOMA",
+      "city": "LAKEWOOD",
       "stateCode": "WA",
       "postalCode": "",
       "postalCodeExtension": ""
