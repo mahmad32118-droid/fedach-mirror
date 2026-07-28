@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 24, 2026.",
-  "syncedAt": "2026-07-27T09:41:06.799014+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is July 27, 2026.",
+  "syncedAt": "2026-07-28T08:21:43.211798+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -74462,10 +74462,10 @@
     },
     {
       "routingNumber": "111314575",
-      "customerName": "VISTA BANK",
+      "customerName": "NBH BANK",
       "address": "",
-      "city": "LUBBOCK",
-      "stateCode": "TX",
+      "city": "KANSAS CITY",
+      "stateCode": "MO",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -76514,10 +76514,10 @@
     },
     {
       "routingNumber": "111911224",
-      "customerName": "VISTA BANK",
+      "customerName": "NBH BANK",
       "address": "",
-      "city": "LUBBOCK",
-      "stateCode": "TX",
+      "city": "KANSAS CITY",
+      "stateCode": "MO",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -77603,10 +77603,10 @@
     },
     {
       "routingNumber": "111926167",
-      "customerName": "VISTA BANK",
+      "customerName": "NBH BANK",
       "address": "",
-      "city": "LUBBOCK",
-      "stateCode": "TX",
+      "city": "KANSAS CITY",
+      "stateCode": "MO",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -82274,7 +82274,7 @@
     },
     {
       "routingNumber": "121137292",
-      "customerName": "UNITED SECURITY BANK",
+      "customerName": "COMMUNITY WEST BANK",
       "address": "",
       "city": "FRESNO",
       "stateCode": "CA",
@@ -82544,7 +82544,7 @@
     },
     {
       "routingNumber": "121141495",
-      "customerName": "UNITED SECURITY BANK",
+      "customerName": "COMMUNITY WEST BANK",
       "address": "",
       "city": "FRESNO",
       "stateCode": "CA",
@@ -82841,7 +82841,7 @@
     },
     {
       "routingNumber": "121143529",
-      "customerName": "UNITED SECURITY BANK",
+      "customerName": "COMMUNITY WEST BANK",
       "address": "",
       "city": "FRESNO",
       "stateCode": "CA",
@@ -85334,7 +85334,7 @@
     },
     {
       "routingNumber": "122239678",
-      "customerName": "UNITED SECURITY BANK",
+      "customerName": "COMMUNITY WEST BANK",
       "address": "",
       "city": "FRESNO",
       "stateCode": "CA",
@@ -111661,7 +111661,7 @@
       "routingNumber": "253170525",
       "customerName": "FIRST BANK",
       "address": "",
-      "city": "GREENSBORO",
+      "city": "DUNN",
       "stateCode": "NC",
       "postalCode": "",
       "postalCodeExtension": ""
