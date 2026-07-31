@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 29, 2026.",
-  "syncedAt": "2026-07-30T08:13:59.693346+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is July 30, 2026.",
+  "syncedAt": "2026-07-31T08:41:42.393136+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -4938,6 +4938,15 @@
     {
       "routingNumber": "021584657",
       "customerName": "COOPERATIVA A/C RICO DAIRY",
+      "address": "",
+      "city": "SAN JUAN",
+      "stateCode": "PR",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
+      "routingNumber": "021584673",
+      "customerName": "COOPERATIVE DE AHORRO Y CREDITO COOP",
       "address": "",
       "city": "SAN JUAN",
       "stateCode": "PR",
@@ -22948,8 +22957,8 @@
       "routingNumber": "061212235",
       "customerName": "SOUTHERN BANK",
       "address": "",
-      "city": "WAYNESBORO",
-      "stateCode": "GA",
+      "city": "DUNCAN",
+      "stateCode": "SC",
       "postalCode": "",
       "postalCodeExtension": ""
     },
