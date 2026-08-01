@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 30, 2026.",
-  "syncedAt": "2026-07-31T08:41:42.393136+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is July 31, 2026.",
+  "syncedAt": "2026-08-01T08:10:11.663982+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -5273,6 +5273,15 @@
       "customerName": "VALLEY NATIONAL BANK",
       "address": "",
       "city": "WAYNE",
+      "stateCode": "NJ",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
+      "routingNumber": "021915019",
+      "customerName": "VALLEY NATIONAL BANK",
+      "address": "",
+      "city": "MORRISTOWN",
       "stateCode": "NJ",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -72932,7 +72941,7 @@
     },
     {
       "routingNumber": "111016501",
-      "customerName": "UNITED TEXAS BANK",
+      "customerName": "UNITED TEXAS BANK, NA",
       "address": "",
       "city": "DALLAS",
       "stateCode": "TX",
@@ -89367,15 +89376,6 @@
     {
       "routingNumber": "125108667",
       "customerName": "HARBORSTONE CREDIT UNION",
-      "address": "",
-      "city": "TACOMA",
-      "stateCode": "WA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "125108670",
-      "customerName": "SOUND CREDIT UNION",
       "address": "",
       "city": "TACOMA",
       "stateCode": "WA",
@@ -119749,15 +119749,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "265274516",
-      "customerName": "PELICAN CREDIT UNION",
-      "address": "",
-      "city": "BATON ROUGE",
-      "stateCode": "LA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "265274545",
       "customerName": "UNIVERSITY OF LOUISIANA FCU",
       "address": "",
@@ -119798,15 +119789,6 @@
       "customerName": "DAVIDSON EFCU",
       "address": "",
       "city": "SULPHUR",
-      "stateCode": "LA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "265274642",
-      "customerName": "PELICAN CREDIT UNION",
-      "address": "",
-      "city": "BATON ROUGE",
       "stateCode": "LA",
       "postalCode": "",
       "postalCodeExtension": ""
