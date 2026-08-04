@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is July 31, 2026.",
-  "syncedAt": "2026-08-03T09:29:59.658682+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 03, 2026.",
+  "syncedAt": "2026-08-04T08:28:26.883761+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -18580,15 +18580,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "054001327",
-      "customerName": "NATIONAL BANK OF PAKISTAN",
-      "address": "",
-      "city": "WASHINGTON",
-      "stateCode": "DC",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "054001518",
       "customerName": "NBAD AMERICAS N.V.",
       "address": "",
@@ -19940,10 +19931,10 @@
     },
     {
       "routingNumber": "061092015",
-      "customerName": "GEORGIA GUARD CREDIT UNION",
+      "customerName": "FIVE STAR CREDIT UNION",
       "address": "",
-      "city": "MACON",
-      "stateCode": "GA",
+      "city": "DOTHAN",
+      "stateCode": "AL",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -31829,7 +31820,7 @@
     },
     {
       "routingNumber": "067000438",
-      "customerName": "FIRST STATE BK OF THE FLORIDA KEYS",
+      "customerName": "FIRST STATE BANK",
       "address": "",
       "city": "MIRAMAR",
       "stateCode": "FL",
@@ -32414,10 +32405,10 @@
     },
     {
       "routingNumber": "067014246",
-      "customerName": "MARINE BANK & TRUST COMPANY",
+      "customerName": "ELGA CREDIT UNION",
       "address": "",
-      "city": "VERO BEACH",
-      "stateCode": "FL",
+      "city": "GRAND BLANC",
+      "stateCode": "MI",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -33647,7 +33638,7 @@
     },
     {
       "routingNumber": "071026628",
-      "customerName": "SIGNATURE BANK",
+      "customerName": "SIGNATURE A DIV ESQUIRE BK",
       "address": "",
       "city": "ROSEMONT",
       "stateCode": "IL",
@@ -33656,7 +33647,7 @@
     },
     {
       "routingNumber": "071026686",
-      "customerName": "SIGNATURE BANK",
+      "customerName": "SIGNATURE A DIV ESQUIRE BK",
       "address": "",
       "city": "CHICAGO",
       "stateCode": "IL",
@@ -47362,15 +47353,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "081501340",
-      "customerName": "EQUITY BANK",
-      "address": "",
-      "city": "WICHITA",
-      "stateCode": "KS",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "081501353",
       "customerName": "MARIES COUNTY BANK",
       "address": "",
@@ -60503,10 +60485,10 @@
     },
     {
       "routingNumber": "092901489",
-      "customerName": "FIRST CITIZENS BANK",
+      "customerName": "FRONTIER CREDIT UNION",
       "address": "",
-      "city": "BUTTE",
-      "stateCode": "MT",
+      "city": "IDAHO FALLS",
+      "stateCode": "ID",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -63427,15 +63409,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "101107158",
-      "customerName": "EQUITY BANK",
-      "address": "",
-      "city": "WICHITA",
-      "stateCode": "KS",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "101107200",
       "customerName": "FIRST SECURITY BANK",
       "address": "",
@@ -64376,15 +64349,6 @@
       "customerName": "MID AMERICA BANK",
       "address": "",
       "city": "BALDWIN CITY",
-      "stateCode": "KS",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "101114947",
-      "customerName": "EQUITY BANK",
-      "address": "",
-      "city": "WICHITA",
       "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -69638,7 +69602,7 @@
     },
     {
       "routingNumber": "104102257",
-      "customerName": "FIRST STATE BANK",
+      "customerName": "HOMESTEAD BANK",
       "address": "",
       "city": "RANDOLPH",
       "stateCode": "NE",
@@ -77769,6 +77733,15 @@
       "address": "",
       "city": "GREENVILLE",
       "stateCode": "TX",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
+      "routingNumber": "111994432",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
+      "address": "",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -95576,9 +95549,9 @@
     },
     {
       "routingNumber": "211885917",
-      "customerName": "ARRHA CREDIT UNION",
+      "customerName": "BRIGHTBRIDGE CREDIT UNION",
       "address": "",
-      "city": "SPRINGFIELD",
+      "city": "LAWRENCE",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -97196,10 +97169,10 @@
     },
     {
       "routingNumber": "221283130",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "HAWTHORNE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -101516,9 +101489,9 @@
     },
     {
       "routingNumber": "231177100",
-      "customerName": "LOUVIERS FED CR UNION",
+      "customerName": "DEL-ONE FEDERAL CREDIT UNION",
       "address": "",
-      "city": "NEWARK",
+      "city": "DOVER",
       "stateCode": "DE",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -104486,9 +104459,9 @@
     },
     {
       "routingNumber": "241075920",
-      "customerName": "NOTEWORTHY FEDERAL CREDIT UNION",
+      "customerName": "CARDINAL CREDIT UNION, INC",
       "address": "",
-      "city": "CLEVELAND",
+      "city": "MENTOR",
       "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -106133,7 +106106,7 @@
     },
     {
       "routingNumber": "242076753",
-      "customerName": "EMERY EMP FED CR UNION",
+      "customerName": "SHAREFAX CREDIT UNION",
       "address": "",
       "city": "CINCINNATI",
       "stateCode": "OH",
@@ -115646,10 +115619,10 @@
     },
     {
       "routingNumber": "261378652",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "HAWTHORNE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -118760,7 +118733,7 @@
     },
     {
       "routingNumber": "264279295",
-      "customerName": "KINGSPORT PRESS CR UNION",
+      "customerName": "TRUNEIGHBOR CREDIT UNION",
       "address": "",
       "city": "KINGSPORT",
       "stateCode": "TN",
@@ -121253,9 +121226,9 @@
     },
     {
       "routingNumber": "267080326",
-      "customerName": "CORAL COMMUNITY FCU",
+      "customerName": "BROWARD HEALTHCARE FCU",
       "address": "",
-      "city": "FT LAUDERDALE",
+      "city": "FT. LAUDERDALE",
       "stateCode": "FL",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -121442,7 +121415,7 @@
     },
     {
       "routingNumber": "267089136",
-      "customerName": "CORAL COMMUNITY FCU",
+      "customerName": "BROWARD HEALTHCARE FCU",
       "address": "",
       "city": "FT LAUDERDALE",
       "stateCode": "FL",
@@ -126158,10 +126131,10 @@
     },
     {
       "routingNumber": "272484535",
-      "customerName": "FIRST AREA CREDIT UNION",
+      "customerName": "CREDIT UNION 1",
       "address": "",
-      "city": "SAGINAW",
-      "stateCode": "MI",
+      "city": "LOMBARD",
+      "stateCode": "IL",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -144473,10 +144446,10 @@
     },
     {
       "routingNumber": "321076412",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "HAWTHORNE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -144725,10 +144698,10 @@
     },
     {
       "routingNumber": "321171964",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "CONCORD",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -144977,10 +144950,10 @@
     },
     {
       "routingNumber": "321173205",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "CONCORD",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -145130,10 +145103,10 @@
     },
     {
       "routingNumber": "321174262",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "TORRANCE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -145562,10 +145535,10 @@
     },
     {
       "routingNumber": "321177861",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "HAWTHORNE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -146660,10 +146633,10 @@
     },
     {
       "routingNumber": "322077818",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "HAWTHORNE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -146930,10 +146903,10 @@
     },
     {
       "routingNumber": "322079719",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "ALLEN",
-      "stateCode": "TX",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -148298,10 +148271,10 @@
     },
     {
       "routingNumber": "322280540",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "HAWTHORNE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -148424,10 +148397,10 @@
     },
     {
       "routingNumber": "322281057",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "HAWTHORNE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -148919,10 +148892,10 @@
     },
     {
       "routingNumber": "322283178",
-      "customerName": "UNIFY FINANCIAL FEDERAL CREDIT UNION",
+      "customerName": "COMMUNITYAMERICA FEDERAL CU",
       "address": "",
-      "city": "TORRANCE",
-      "stateCode": "CA",
+      "city": "LENEXA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -149450,7 +149423,7 @@
     },
     {
       "routingNumber": "323075356",
-      "customerName": "KAI PERM NW FEDERAL CREDIT UNION",
+      "customerName": "CONSOLIDATED FEDERAL CREDIT UNION",
       "address": "",
       "city": "PORTLAND",
       "stateCode": "OR",
