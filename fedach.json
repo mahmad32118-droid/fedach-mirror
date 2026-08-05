@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 03, 2026.",
-  "syncedAt": "2026-08-04T08:28:26.883761+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 04, 2026.",
+  "syncedAt": "2026-08-05T08:25:19.876982+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -12398,7 +12398,7 @@
     },
     {
       "routingNumber": "043087080",
-      "customerName": "SSB BANK",
+      "customerName": "SSB BANK (BAAS)",
       "address": "",
       "city": "PITTSBURGH",
       "stateCode": "PA",
@@ -66145,15 +66145,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "102103630",
-      "customerName": "FIRST NATIONAL BANK OF HUGO",
-      "address": "",
-      "city": "HUGO",
-      "stateCode": "CO",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "102103708",
       "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
@@ -66254,7 +66245,7 @@
     },
     {
       "routingNumber": "102104749",
-      "customerName": "BANK OF JACKSON HOLE TRUST",
+      "customerName": "2UNIFI BANK",
       "address": "",
       "city": "KANSAS CITY",
       "stateCode": "MO",
