@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 05, 2026.",
-  "syncedAt": "2026-08-06T08:23:24.141653+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 06, 2026.",
+  "syncedAt": "2026-08-07T07:06:28.807919+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -71297,24 +71297,6 @@
       "customerName": "UNION BANK & TRUST COMPANY",
       "address": "",
       "city": "LINCOLN",
-      "stateCode": "NE",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "104914199",
-      "customerName": "BANK OF STEINAUER",
-      "address": "",
-      "city": "STEINAUER",
-      "stateCode": "NE",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "104914209",
-      "customerName": "BANK OF STEINAUER",
-      "address": "",
-      "city": "STEINAUER",
       "stateCode": "NE",
       "postalCode": "",
       "postalCodeExtension": ""
