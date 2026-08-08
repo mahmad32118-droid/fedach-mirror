@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 06, 2026.",
-  "syncedAt": "2026-08-07T07:06:28.807919+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 07, 2026.",
+  "syncedAt": "2026-08-08T06:42:19.406768+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -68135,7 +68135,7 @@
     },
     {
       "routingNumber": "103104544",
-      "customerName": "FIRST NATIONAL BANK",
+      "customerName": "MONUMENT BANK",
       "address": "",
       "city": "HEAVENER",
       "stateCode": "OK",
@@ -87575,7 +87575,7 @@
     },
     {
       "routingNumber": "123308582",
-      "customerName": "TWIN CITY BANK",
+      "customerName": "INCREASE BANK",
       "address": "",
       "city": "LONGVIEW",
       "stateCode": "WA",
@@ -137536,7 +137536,7 @@
       "routingNumber": "302188675",
       "customerName": "HOME LOAN STATE BANK",
       "address": "",
-      "city": "GRAND JUNCTION",
+      "city": "GRAND JUNCTON",
       "stateCode": "CO",
       "postalCode": "",
       "postalCodeExtension": ""
