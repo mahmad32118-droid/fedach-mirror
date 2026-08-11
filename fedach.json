@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 07, 2026.",
-  "syncedAt": "2026-08-09T06:43:23.031745+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 10, 2026.",
+  "syncedAt": "2026-08-11T06:56:07.868376+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -22334,9 +22334,9 @@
     },
     {
       "routingNumber": "061203477",
-      "customerName": "BK OF WRIGHTSVILLE",
+      "customerName": "CENTURY BANK AND TRUST",
       "address": "",
-      "city": "WRIGHTSVILLE",
+      "city": "MILLEDGEVILLE",
       "stateCode": "GA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -39722,10 +39722,10 @@
     },
     {
       "routingNumber": "073900522",
-      "customerName": "MIDWESTONE BK",
+      "customerName": "NICOLET NATIONAL BANK",
       "address": "",
-      "city": "IOWA CITY",
-      "stateCode": "IA",
+      "city": "GREEN BAY",
+      "stateCode": "WI",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -39776,10 +39776,10 @@
     },
     {
       "routingNumber": "073900755",
-      "customerName": "MIDWESTONE BANK",
+      "customerName": "NICOLET NATIONAL BANK",
       "address": "",
-      "city": "IOWA CITY",
-      "stateCode": "IA",
+      "city": "GREEN BAY",
+      "stateCode": "WI",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -39812,10 +39812,10 @@
     },
     {
       "routingNumber": "073901233",
-      "customerName": "MIDWESTONE BANK",
+      "customerName": "NICOLET NATIONAL BANK",
       "address": "",
-      "city": "IOWA CITY",
-      "stateCode": "IA",
+      "city": "GREEN BAY",
+      "stateCode": "WI",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -39902,10 +39902,10 @@
     },
     {
       "routingNumber": "073901877",
-      "customerName": "MIDWESTONE BANK",
+      "customerName": "NICOLET NATIONAL BANK",
       "address": "",
-      "city": "IOWA CITY",
-      "stateCode": "IA",
+      "city": "GREEN BAY",
+      "stateCode": "WI",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -48236,9 +48236,9 @@
     },
     {
       "routingNumber": "081518016",
-      "customerName": "SENATH STATE BK",
+      "customerName": "FIRST STATE BANK & TRUST COMP, INC",
       "address": "",
-      "city": "SENATH",
+      "city": "CARUTHERSVILLE",
       "stateCode": "MO",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -58982,10 +58982,10 @@
     },
     {
       "routingNumber": "091905114",
-      "customerName": "MIDWESTONE BK",
+      "customerName": "NICOLET NATIONAL BANK",
       "address": "",
-      "city": "IOWA CITY",
-      "stateCode": "IA",
+      "city": "GREEN BAY",
+      "stateCode": "WI",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -65741,10 +65741,10 @@
     },
     {
       "routingNumber": "102007383",
-      "customerName": "MIDWESTONE BANK",
+      "customerName": "NICOLET NATIONAL BANK",
       "address": "",
-      "city": "IOWA CITY",
-      "stateCode": "IA",
+      "city": "GREEN BAY",
+      "stateCode": "WI",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -66038,9 +66038,9 @@
     },
     {
       "routingNumber": "102102576",
-      "customerName": "FIRST NATIONAL BANK HUGO",
+      "customerName": "HIGH PLAINS BANK",
       "address": "",
-      "city": "HUGO",
+      "city": "FLAGLER",
       "stateCode": "CO",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -73445,9 +73445,9 @@
     },
     {
       "routingNumber": "111102596",
-      "customerName": "PROGRESSIVE BANK",
+      "customerName": "B1BANK",
       "address": "",
-      "city": "MONROE",
+      "city": "BATON ROUGE",
       "stateCode": "LA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -102977,15 +102977,6 @@
       "customerName": "1ST AREA FCU",
       "address": "",
       "city": "LEWISTOWN",
-      "stateCode": "PA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "231382115",
-      "customerName": "HERSHEY FED C.U.",
-      "address": "",
-      "city": "HUMMELSTOWN",
       "stateCode": "PA",
       "postalCode": "",
       "postalCodeExtension": ""
