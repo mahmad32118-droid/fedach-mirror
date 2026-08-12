@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 10, 2026.",
-  "syncedAt": "2026-08-11T06:56:07.868376+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 11, 2026.",
+  "syncedAt": "2026-08-12T07:15:04.494177+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -92984,7 +92984,7 @@
     },
     {
       "routingNumber": "211373348",
-      "customerName": "ROCKLAND FEDERAL CREDIT UNION",
+      "customerName": "ARISE FEDERAL CREDIT UNION",
       "address": "",
       "city": "ROCKLAND",
       "stateCode": "MA",
@@ -93182,7 +93182,7 @@
     },
     {
       "routingNumber": "211380409",
-      "customerName": "ROCKLAND STURDY FCU",
+      "customerName": "ARISE FEDERAL CREDIT UNION",
       "address": "",
       "city": "ROCKLAND",
       "stateCode": "MA",
