@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 13, 2026.",
-  "syncedAt": "2026-08-14T07:15:52.612078+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 14, 2026.",
+  "syncedAt": "2026-08-15T06:25:59.225588+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -15731,6 +15731,15 @@
       "customerName": "FIRST NATIONAL BANK OF WILLIAMSON",
       "address": "",
       "city": "WILLIAMSON",
+      "stateCode": "WV",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
+      "routingNumber": "051504827",
+      "customerName": "MVB BANK, INC",
+      "address": "",
+      "city": "FAIRMONT",
       "stateCode": "WV",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -35618,9 +35627,9 @@
     },
     {
       "routingNumber": "071125943",
-      "customerName": "PREFERRED BANK",
+      "customerName": "PROSPECT BANK",
       "address": "",
-      "city": "CASEY",
+      "city": "PARIS",
       "stateCode": "IL",
       "postalCode": "",
       "postalCodeExtension": ""
