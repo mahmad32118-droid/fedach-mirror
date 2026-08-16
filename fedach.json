@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
   "effectiveDate": "The effective date of this FedACH directory is August 14, 2026.",
-  "syncedAt": "2026-08-15T06:25:59.225588+00:00",
+  "syncedAt": "2026-08-16T06:30:57.865225+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
