@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 14, 2026.",
-  "syncedAt": "2026-08-17T06:41:32.971752+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 17, 2026.",
+  "syncedAt": "2026-08-18T06:32:48.338737+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -8935,7 +8935,7 @@
       "routingNumber": "031312835",
       "customerName": "CENTRAL PENN BANK & TRUST",
       "address": "",
-      "city": "NORTHUMBERLAND",
+      "city": "MIFFLINBURG",
       "stateCode": "PA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -15750,6 +15750,24 @@
       "address": "",
       "city": "HUNTINGTON",
       "stateCode": "WV",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
+      "routingNumber": "051736718",
+      "customerName": "CREDIT GATEWAY FRTIB ACH - CIVILIAN",
+      "address": "",
+      "city": "SAINT PAUL",
+      "stateCode": "MN",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
+      "routingNumber": "051736721",
+      "customerName": "CREDIT GATEWAY FRTIB ACH - MILITARY",
+      "address": "",
+      "city": "SAINT PAUL",
+      "stateCode": "MN",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -31343,15 +31361,6 @@
     },
     {
       "routingNumber": "065405132",
-      "customerName": "CAPITAL ONE, N.A.",
-      "address": "",
-      "city": "RICHMOND",
-      "stateCode": "VA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "065405145",
       "customerName": "CAPITAL ONE, N.A.",
       "address": "",
       "city": "RICHMOND",
@@ -48038,10 +48047,10 @@
     },
     {
       "routingNumber": "081513574",
-      "customerName": "FIRST MISSOURI STATE BANK",
+      "customerName": "FM BANK AND TRUST",
       "address": "",
-      "city": "POPLAR BLUFF",
-      "stateCode": "MO",
+      "city": "BLYTHEVILLE",
+      "stateCode": "AR",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -59893,7 +59902,7 @@
       "routingNumber": "091916378",
       "customerName": "HIGHLAND BANK",
       "address": "",
-      "city": "MAPLE GROVE",
+      "city": "ST PAUL",
       "stateCode": "MN",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -107340,15 +107349,6 @@
     {
       "routingNumber": "243083363",
       "customerName": "B.I. FEDERAL",
-      "address": "",
-      "city": "PITTSBURGH",
-      "stateCode": "PA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "243083428",
-      "customerName": "GREATER PITTSBURGH FCU",
       "address": "",
       "city": "PITTSBURGH",
       "stateCode": "PA",
