@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 19, 2026.",
-  "syncedAt": "2026-08-20T06:35:13.406864+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 20, 2026.",
+  "syncedAt": "2026-08-21T06:34:32.127883+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -132719,7 +132719,7 @@
     },
     {
       "routingNumber": "286582711",
-      "customerName": "METRO CREDIT UNION",
+      "customerName": "METRO+ FCU DBA METRO CREDIT UNION",
       "address": "",
       "city": "SPRINGFIELD",
       "stateCode": "MO",
@@ -132728,7 +132728,7 @@
     },
     {
       "routingNumber": "286582737",
-      "customerName": "METRO CREDIT UNION",
+      "customerName": "METRO+ FCU DBA METRO CREDIT UNION",
       "address": "",
       "city": "SPRINGFIELD",
       "stateCode": "MO",
