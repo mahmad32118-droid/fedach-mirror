@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 21, 2026.",
-  "syncedAt": "2026-08-24T06:42:37.472013+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 24, 2026.",
+  "syncedAt": "2026-08-25T06:34:39.741153+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -464,7 +464,7 @@
     },
     {
       "routingNumber": "011110743",
-      "customerName": "BANKESB",
+      "customerName": "TRUNORTH BANK",
       "address": "",
       "city": "EASTHAMPTON",
       "stateCode": "MA",
@@ -10121,9 +10121,9 @@
     },
     {
       "routingNumber": "041202760",
-      "customerName": "MIDDLEFIELD BANKING COMPANY",
+      "customerName": "FARMERS NATIONAL BANK OF CANFIELD",
       "address": "",
-      "city": "MIDDLEFIELD",
+      "city": "CANFIELD",
       "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -10283,9 +10283,9 @@
     },
     {
       "routingNumber": "041205929",
-      "customerName": "THE MIDDLEFIELD BANKING COMPANY",
+      "customerName": "FARMERS NATIONAL BANK OF CANFIELD",
       "address": "",
-      "city": "MIDDLEFIELD",
+      "city": "CANFIELD",
       "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -10508,9 +10508,9 @@
     },
     {
       "routingNumber": "041210448",
-      "customerName": "MIDDLEFIELD BANKING CO",
+      "customerName": "FARMERS NATIONAL BANK OF CANFIELD",
       "address": "",
-      "city": "MIDDLEFIELD",
+      "city": "CANFIELD",
       "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -13145,9 +13145,9 @@
     },
     {
       "routingNumber": "044072308",
-      "customerName": "MIDDLEFIELD BANKING CO",
+      "customerName": "FARMERS NATIONAL BANK OF CANFIELD",
       "address": "",
-      "city": "MIDDLEFIELD",
+      "city": "CANFIELD",
       "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -53267,10 +53267,10 @@
     },
     {
       "routingNumber": "084301042",
-      "customerName": "FIRST CITIZENS NATIONAL BK",
+      "customerName": "THE PARK NATIONAL BANK",
       "address": "",
-      "city": "DYERSBURG",
-      "stateCode": "TN",
+      "city": "NEWARK",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -62665,7 +62665,7 @@
       "routingNumber": "101103385",
       "customerName": "FIRST SECURITY BANK",
       "address": "",
-      "city": "WICHITA",
+      "city": "OVERBROOK",
       "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -63430,7 +63430,7 @@
       "routingNumber": "101107200",
       "customerName": "FIRST SECURITY BANK",
       "address": "",
-      "city": "WICHITA",
+      "city": "OVERBROOK",
       "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -89863,7 +89863,7 @@
       "routingNumber": "211073473",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -92185,7 +92185,7 @@
       "routingNumber": "211370626",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -92221,7 +92221,7 @@
       "routingNumber": "211370697",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -92392,7 +92392,7 @@
       "routingNumber": "211371243",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -92410,7 +92410,7 @@
       "routingNumber": "211371298",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -92671,7 +92671,7 @@
       "routingNumber": "211371845",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -92797,7 +92797,7 @@
       "routingNumber": "211372145",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -92824,7 +92824,7 @@
       "routingNumber": "211372271",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -92995,7 +92995,7 @@
       "routingNumber": "211373267",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -93067,7 +93067,7 @@
       "routingNumber": "211373584",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -93121,7 +93121,7 @@
       "routingNumber": "211374062",
       "customerName": "TRUNORTH BANK",
       "address": "",
-      "city": "PEABODY",
+      "city": "EASTHAMPTON",
       "stateCode": "MA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -95252,7 +95252,7 @@
     },
     {
       "routingNumber": "211870935",
-      "customerName": "BANKESB",
+      "customerName": "TRUNORTH BANK",
       "address": "",
       "city": "EASTHAMPTON",
       "stateCode": "MA",
