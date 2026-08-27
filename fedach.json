@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 25, 2026.",
-  "syncedAt": "2026-08-26T06:38:13.026918+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 27, 2026.",
+  "syncedAt": "2026-08-27T17:13:49.033403+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -46426,15 +46426,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "081086797",
-      "customerName": "AFRICAN DIASPORA FEDERAL CU",
-      "address": "",
-      "city": "SAINT ANN",
-      "stateCode": "MO",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "081200528",
       "customerName": "STATE STREET BANK & TRUST CO",
       "address": "",
@@ -69296,15 +69287,6 @@
     },
     {
       "routingNumber": "103913434",
-      "customerName": "REGENT BANK",
-      "address": "",
-      "city": "TULSA",
-      "stateCode": "OK",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "103913463",
       "customerName": "REGENT BANK",
       "address": "",
       "city": "TULSA",
@@ -148730,7 +148712,7 @@
     },
     {
       "routingNumber": "322282580",
-      "customerName": "ALTA VISTA CREDIT UNION",
+      "customerName": "ALTA VISTA FEDERAL CREDIT UNION",
       "address": "",
       "city": "REDLANDS",
       "stateCode": "CA",
