@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 28, 2026.",
-  "syncedAt": "2026-08-30T11:01:44.385744+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is August 31, 2026.",
+  "syncedAt": "2026-08-31T12:18:06.468514+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -28048,15 +28048,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "064102397",
-      "customerName": "REGIONS BANK",
-      "address": "",
-      "city": "BIRMINGHAM",
-      "stateCode": "AL",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "064102436",
       "customerName": "WELLWORTH BANK",
       "address": "",
@@ -28867,15 +28858,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "064201463",
-      "customerName": "COMMUNITY TRUST BANK, INC",
-      "address": "",
-      "city": "PIKEVILLE",
-      "stateCode": "KY",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "064201560",
       "customerName": "FIRST HORIZON BANK",
       "address": "",
@@ -29393,15 +29375,6 @@
       "customerName": "CITIZENS BANK",
       "address": "",
       "city": "ELIZABETHTON",
-      "stateCode": "TN",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "064209180",
-      "customerName": "SMARTBANK",
-      "address": "",
-      "city": "PIGEON FORGE",
       "stateCode": "TN",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -99500,7 +99473,7 @@
     },
     {
       "routingNumber": "222080138",
-      "customerName": "ST. JOSEPH'S PARISH BUFFALO FCU",
+      "customerName": "SJP FEDERAL CREDIT UNION",
       "address": "",
       "city": "BUFFALO,",
       "stateCode": "NY",
@@ -128336,7 +128309,7 @@
     },
     {
       "routingNumber": "274975301",
-      "customerName": "DEL MET FEDERAL CREDIT UNION",
+      "customerName": "PRIMETRUST FINANCIAL FEDERAL C U",
       "address": "",
       "city": "MUNCIE",
       "stateCode": "IN",
