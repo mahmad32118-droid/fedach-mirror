@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is August 31, 2026.",
-  "syncedAt": "2026-08-31T12:18:06.468514+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 01, 2026.",
+  "syncedAt": "2026-09-01T10:53:29.502574+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -5162,7 +5162,7 @@
     },
     {
       "routingNumber": "021909342",
-      "customerName": "JEFF BANK",
+      "customerName": "JEFF BANK, N.A.",
       "address": "",
       "city": "JEFFERSONVILLE",
       "stateCode": "NY",
@@ -47642,7 +47642,7 @@
     },
     {
       "routingNumber": "081505634",
-      "customerName": "1ST BANK OF THE LAKE",
+      "customerName": "FIRST BANK OF THE LAKE",
       "address": "",
       "city": "OSAGE BEACH",
       "stateCode": "MO",
@@ -55096,8 +55096,8 @@
       "routingNumber": "091206745",
       "customerName": "B2 BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "MOUNTAIN IRON",
-      "stateCode": "MN",
+      "city": "HOLLADY",
+      "stateCode": "UT",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -55888,8 +55888,8 @@
       "routingNumber": "091218445",
       "customerName": "B2 BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "MOUNTAIN IRON",
-      "stateCode": "MN",
+      "city": "HOLLADAY",
+      "stateCode": "UT",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -71063,15 +71063,6 @@
       "customerName": "FIRST NEBRASKA BANK",
       "address": "",
       "city": "VALLEY",
-      "stateCode": "NE",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "104910339",
-      "customerName": "BANK OF THE VALLEY",
-      "address": "",
-      "city": "BELLWOOD",
       "stateCode": "NE",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -89555,10 +89546,10 @@
     },
     {
       "routingNumber": "125109161",
-      "customerName": "EREBOR BK VIA CCB",
+      "customerName": "EREBOR BANK, NATIONAL ASSOCIATION",
       "address": "",
-      "city": "EVERETT",
-      "stateCode": "WA",
+      "city": "COLUMBUS",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -90896,9 +90887,9 @@
     },
     {
       "routingNumber": "211179610",
-      "customerName": "WATERBURY POSTAL EMP",
+      "customerName": "AMERICA'S FIRST NETWORK CREDIT UNION",
       "address": "",
-      "city": "WATERBURY",
+      "city": "NORTH HAVEN",
       "stateCode": "CT",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -96719,9 +96710,9 @@
     },
     {
       "routingNumber": "221276503",
-      "customerName": "GAF LINDEN EMP FCU",
+      "customerName": "GARDEN SAVINGS FCU",
       "address": "",
-      "city": "WAYNE",
+      "city": "PARSIPPANY",
       "stateCode": "NJ",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -97124,7 +97115,7 @@
     },
     {
       "routingNumber": "221283347",
-      "customerName": "LUSITANIA SAVINGS BANK,FSB",
+      "customerName": "LSB COMMUNITY BANK",
       "address": "",
       "city": "NEWARK",
       "stateCode": "NJ",
@@ -113351,7 +113342,7 @@
     },
     {
       "routingNumber": "254074675",
-      "customerName": "PAHO/WHO FCU",
+      "customerName": "BIENESTAR FEDERAL CREDIT UNION",
       "address": "",
       "city": "WASHINGTON",
       "stateCode": "DC",
@@ -113459,7 +113450,7 @@
     },
     {
       "routingNumber": "254075072",
-      "customerName": "PAHO/WHO FEDERAL CREDIT UNION",
+      "customerName": "BIENESTAR FEDERAL CREDIT UNION",
       "address": "",
       "city": "ARLINGTON",
       "stateCode": "VA",
@@ -116015,9 +116006,9 @@
     },
     {
       "routingNumber": "262184078",
-      "customerName": "SOLUTIONS FIRST FEDERAL CREDIT UNION",
+      "customerName": "GUARDIAN CREDIT UNION",
       "address": "",
-      "city": "ENTERPRISE",
+      "city": "PRATTVILLE",
       "stateCode": "AL",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -116150,7 +116141,7 @@
     },
     {
       "routingNumber": "262276562",
-      "customerName": "MONTGOMERY VA FCU",
+      "customerName": "ALABAMA STATE EMPLOYEES CU",
       "address": "",
       "city": "MONTGOMERY",
       "stateCode": "AL",
@@ -119696,10 +119687,10 @@
     },
     {
       "routingNumber": "265274655",
-      "customerName": "GCA FEDERAL CREDIT",
+      "customerName": "ACCESS OF LOUISIANA FCU",
       "address": "",
-      "city": "LAKE CHARLES",
-      "stateCode": "LA",
+      "city": "BRANSON",
+      "stateCode": "MO",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -121865,9 +121856,9 @@
     },
     {
       "routingNumber": "271080710",
-      "customerName": "MWRD EMPLOYEES CREDIT UNION",
+      "customerName": "CREDIT UNION 1",
       "address": "",
-      "city": "CHICAGO",
+      "city": "LOMBARD",
       "stateCode": "IL",
       "postalCode": "",
       "postalCodeExtension": ""
