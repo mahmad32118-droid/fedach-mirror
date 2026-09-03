@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is September 01, 2026.",
-  "syncedAt": "2026-09-02T10:19:10.936312+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 02, 2026.",
+  "syncedAt": "2026-09-03T10:30:08.069669+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -84055,15 +84055,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122045354",
-      "customerName": "JENIUS BANK A DIV OF SMBC MANUBANK",
-      "address": "",
-      "city": "LOS ANGELES",
-      "stateCode": "CA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122086944",
       "customerName": "ASIAN PACIFIC NATIONAL BANK",
       "address": "",
@@ -87548,7 +87539,7 @@
     },
     {
       "routingNumber": "123308618",
-      "customerName": "TWIN CITY BANK",
+      "customerName": "INCREASE BANK",
       "address": "",
       "city": "LONGVIEW",
       "stateCode": "WA",
@@ -138317,9 +138308,9 @@
     },
     {
       "routingNumber": "303986290",
-      "customerName": "FIRST OKLAHOMA FEDERAL CU",
+      "customerName": "GREEN COUNTRY FEDERAL CREDIT UNION",
       "address": "",
-      "city": "TULSA",
+      "city": "SAND SPRINGS",
       "stateCode": "OK",
       "postalCode": "",
       "postalCodeExtension": ""
