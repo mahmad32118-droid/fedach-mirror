@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is September 02, 2026.",
-  "syncedAt": "2026-09-03T10:30:08.069669+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 03, 2026.",
+  "syncedAt": "2026-09-04T10:17:42.335219+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -86578,7 +86578,7 @@
       "routingNumber": "122287604",
       "customerName": "COASTHILLS CREDIT UNION",
       "address": "",
-      "city": "LOMPOC",
+      "city": "SANTA MARIA",
       "stateCode": "CA",
       "postalCode": "",
       "postalCodeExtension": ""
