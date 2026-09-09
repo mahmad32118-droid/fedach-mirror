@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is September 04, 2026.",
-  "syncedAt": "2026-09-08T10:23:17.807626+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 08, 2026.",
+  "syncedAt": "2026-09-09T10:31:56.846833+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -29398,6 +29398,15 @@
       "postalCodeExtension": ""
     },
     {
+      "routingNumber": "064209232",
+      "customerName": "FB FINANCIAL, A DIV OF FIRSTBANK",
+      "address": "",
+      "city": "LEXINGTON",
+      "stateCode": "TN",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
       "routingNumber": "064209371",
       "customerName": "SOUTHEAST BANK & TRUST",
       "address": "",
@@ -32216,10 +32225,10 @@
     },
     {
       "routingNumber": "067012099",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -38102,10 +38111,10 @@
     },
     {
       "routingNumber": "072000096",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -38120,10 +38129,10 @@
     },
     {
       "routingNumber": "072000339",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -38228,10 +38237,10 @@
     },
     {
       "routingNumber": "072401064",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -38570,10 +38579,10 @@
     },
     {
       "routingNumber": "072404485",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -38606,10 +38615,10 @@
     },
     {
       "routingNumber": "072404786",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -38921,10 +38930,10 @@
     },
     {
       "routingNumber": "072409794",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -39065,10 +39074,10 @@
     },
     {
       "routingNumber": "072413133",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -39092,10 +39101,10 @@
     },
     {
       "routingNumber": "072413256",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -72653,10 +72662,10 @@
     },
     {
       "routingNumber": "111000753",
-      "customerName": "COMERICA BANK - TEXAS",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -78449,10 +78458,10 @@
     },
     {
       "routingNumber": "113015584",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -80897,10 +80906,10 @@
     },
     {
       "routingNumber": "114912288",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -82220,10 +82229,10 @@
     },
     {
       "routingNumber": "121137522",
-      "customerName": "COMERICA BANK CALIFORNIA",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "DETROIT",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84947,10 +84956,10 @@
     },
     {
       "routingNumber": "122236037",
-      "customerName": "COMERICA BANK",
+      "customerName": "FIFTH THIRD BANK",
       "address": "",
-      "city": "LIVONIA",
-      "stateCode": "MI",
+      "city": "CINCINNATI",
+      "stateCode": "OH",
       "postalCode": "",
       "postalCodeExtension": ""
     },
