@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is September 10, 2026.",
-  "syncedAt": "2026-09-11T10:21:13.270567+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 11, 2026.",
+  "syncedAt": "2026-09-12T09:54:56.735715+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -31063,15 +31063,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "065401000",
-      "customerName": "CAPITAL ONE, N.A.",
-      "address": "",
-      "city": "RICHMOND",
-      "stateCode": "VA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "065401107",
       "customerName": "UNITED COMMUNITY BANK",
       "address": "",
@@ -31158,15 +31149,6 @@
       "address": "",
       "city": "VACHERIE",
       "stateCode": "LA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "065402494",
-      "customerName": "CAPITAL ONE, N.A.",
-      "address": "",
-      "city": "RICHMOND",
-      "stateCode": "VA",
       "postalCode": "",
       "postalCodeExtension": ""
     },
