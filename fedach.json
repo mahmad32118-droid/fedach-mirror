@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is September 15, 2026.",
-  "syncedAt": "2026-09-15T10:48:31.347502+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 16, 2026.",
+  "syncedAt": "2026-09-16T10:37:33.071659+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -6881,7 +6881,7 @@
     },
     {
       "routingNumber": "026073134",
-      "customerName": "M.Y. SAFRA BANK, FSB",
+      "customerName": "BTG PACTUAL BANK, N.A.",
       "address": "",
       "city": "NEW YORK",
       "stateCode": "NY",
