@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is September 16, 2026.",
-  "syncedAt": "2026-09-16T10:37:33.071659+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 17, 2026.",
+  "syncedAt": "2026-09-17T10:46:20.434922+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -60125,7 +60125,7 @@
     },
     {
       "routingNumber": "091981646",
-      "customerName": "SOUTH METRO FEDERAL CREDIT UNION",
+      "customerName": "NORTHWINDS FEDERAL CREDIT UNION",
       "address": "",
       "city": "PRIOR LAKE",
       "stateCode": "MN",
