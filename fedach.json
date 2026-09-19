@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is September 17, 2026.",
-  "syncedAt": "2026-09-18T10:21:44.334475+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 18, 2026.",
+  "syncedAt": "2026-09-19T10:04:09.047923+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -67235,7 +67235,7 @@
     },
     {
       "routingNumber": "103100467",
-      "customerName": "FIRST NATIONAL BANK & TRUST CO",
+      "customerName": "BROOKS BANK, NA",
       "address": "",
       "city": "CHICKASHA",
       "stateCode": "OK",
@@ -67325,7 +67325,7 @@
     },
     {
       "routingNumber": "103101107",
-      "customerName": "FIRST NATIONAL BANK & TRUST",
+      "customerName": "PATRONS BANK, NA",
       "address": "",
       "city": "OKMULGEE",
       "stateCode": "OK",
