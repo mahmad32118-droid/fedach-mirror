@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
-  "effectiveDate": "The effective date of this FedACH directory is September 18, 2026.",
-  "syncedAt": "2026-09-20T10:23:34.163721+00:00",
+  "effectiveDate": "The effective date of this FedACH directory is September 21, 2026.",
+  "syncedAt": "2026-09-21T11:35:04.740990+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -4082,19 +4082,19 @@
     },
     {
       "routingNumber": "021414345",
-      "customerName": "FLUSHING BANK",
+      "customerName": "OCEANFIRST BANK, NA",
       "address": "",
-      "city": "FLUSHING",
-      "stateCode": "NY",
+      "city": "TOMS RIVER",
+      "stateCode": "NJ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
     {
       "routingNumber": "021414426",
-      "customerName": "FLUSHING BANK",
+      "customerName": "OCEANFIRST BANK, NA",
       "address": "",
-      "city": "UNIONDALE",
-      "stateCode": "NY",
+      "city": "TOMS RIVER",
+      "stateCode": "NJ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -6809,10 +6809,10 @@
     },
     {
       "routingNumber": "026072928",
-      "customerName": "IGO BANK, A DIV OF FLUSHING SVGS BK",
+      "customerName": "OCEANFIRST BANK, NA",
       "address": "",
-      "city": "FLUSHING",
-      "stateCode": "NY",
+      "city": "TOMS RIVER",
+      "stateCode": "NJ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -21983,9 +21983,9 @@
     },
     {
       "routingNumber": "061121452",
-      "customerName": "TANDEM BANK",
+      "customerName": "GEORGIA BANKING COMPANY",
       "address": "",
-      "city": "TUCKER",
+      "city": "ATLANTA",
       "stateCode": "GA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -29596,6 +29596,15 @@
       "postalCodeExtension": ""
     },
     {
+      "routingNumber": "065005587",
+      "customerName": "NOLA BANK",
+      "address": "",
+      "city": "NEW ORLEANS",
+      "stateCode": "LA",
+      "postalCode": "",
+      "postalCodeExtension": ""
+    },
+    {
       "routingNumber": "065072468",
       "customerName": "ANDI BANK, DIVISION OF FIDELITY BANK",
       "address": "",
@@ -32585,10 +32594,10 @@
     },
     {
       "routingNumber": "067015203",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -32819,10 +32828,10 @@
     },
     {
       "routingNumber": "067016325",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -32837,10 +32846,10 @@
     },
     {
       "routingNumber": "067016383",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -41488,7 +41497,7 @@
       "routingNumber": "073918378",
       "customerName": "WEST IOWA BANK",
       "address": "",
-      "city": "ROYAL",
+      "city": "WEST BEND",
       "stateCode": "IA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -41738,9 +41747,9 @@
     },
     {
       "routingNumber": "073920890",
-      "customerName": "NORTHSTAR BANK",
+      "customerName": "FIRST STATE BANK",
       "address": "",
-      "city": "ESTHERVILLE",
+      "city": "WEBSTER CITY",
       "stateCode": "IA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -42314,9 +42323,9 @@
     },
     {
       "routingNumber": "073922571",
-      "customerName": "NORTHSTAR BANK",
+      "customerName": "FIRST STATE BANK",
       "address": "",
-      "city": "ESTHERVILLE",
+      "city": "WEBSTER CITY",
       "stateCode": "IA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -63725,9 +63734,9 @@
     },
     {
       "routingNumber": "101109994",
-      "customerName": "PRESCOTT STATE BANK",
+      "customerName": "EXCHANGE STATE BANK",
       "address": "",
-      "city": "PRESCOTT",
+      "city": "ST PAUL",
       "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -82904,10 +82913,10 @@
     },
     {
       "routingNumber": "121144201",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -83471,10 +83480,10 @@
     },
     {
       "routingNumber": "121302357",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84020,10 +84029,10 @@
     },
     {
       "routingNumber": "122044371",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -85145,10 +85154,10 @@
     },
     {
       "routingNumber": "122238721",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -86081,10 +86090,10 @@
     },
     {
       "routingNumber": "122244003",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -86558,10 +86567,10 @@
     },
     {
       "routingNumber": "122287581",
-      "customerName": "FIRST FOUNDATION BANK",
+      "customerName": "SUNFLOWER BANK NATIONAL ASSOCIATION",
       "address": "",
-      "city": "IRVINE",
-      "stateCode": "CA",
+      "city": "SALINA",
+      "stateCode": "KS",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -88808,9 +88817,9 @@
     },
     {
       "routingNumber": "125102906",
-      "customerName": "KITSAP BANK",
+      "customerName": "HERITAGE BANK",
       "address": "",
-      "city": "PORT ORCHARD",
+      "city": "OLYMPIA",
       "stateCode": "WA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -89006,9 +89015,9 @@
     },
     {
       "routingNumber": "125107723",
-      "customerName": "KITSAP BANK (NORTHWESTERN BANK)",
+      "customerName": "HERITAGE BANK",
       "address": "",
-      "city": "PORT ORCHARD",
+      "city": "OLYMPIA",
       "stateCode": "WA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -89195,9 +89204,9 @@
     },
     {
       "routingNumber": "125108476",
-      "customerName": "KITSAP BANK",
+      "customerName": "HERITAGE BANK",
       "address": "",
-      "city": "PORT ORCHARD",
+      "city": "OLYMPIA",
       "stateCode": "WA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -89213,9 +89222,9 @@
     },
     {
       "routingNumber": "125108502",
-      "customerName": "KITSAP BANK",
+      "customerName": "HERITAGE BANK",
       "address": "",
-      "city": "BREMERTON",
+      "city": "OLYMPIA",
       "stateCode": "WA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -89294,9 +89303,9 @@
     },
     {
       "routingNumber": "125108706",
-      "customerName": "KITSAP BANK",
+      "customerName": "HERITAGE BANK",
       "address": "",
-      "city": "PORT ORCHARD",
+      "city": "OLYMPIA",
       "stateCode": "WA",
       "postalCode": "",
       "postalCodeExtension": ""
@@ -100526,10 +100535,10 @@
     },
     {
       "routingNumber": "226070474",
-      "customerName": "FLUSHING BANK",
+      "customerName": "OCEANFIRST BANK, NA",
       "address": "",
-      "city": "UNIONDALE",
-      "stateCode": "NY",
+      "city": "TOMS RIVER",
+      "stateCode": "NJ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -100580,10 +100589,10 @@
     },
     {
       "routingNumber": "226070762",
-      "customerName": "FLUSHING SAVINGS BANK, F.S.B.",
+      "customerName": "OCEANFIRST BANK, NA",
       "address": "",
-      "city": "AUBURNDALE",
-      "stateCode": "NY",
+      "city": "TOMS RIVER",
+      "stateCode": "NJ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -100679,10 +100688,10 @@
     },
     {
       "routingNumber": "226072333",
-      "customerName": "FLUSHING SAVINGS BANK",
+      "customerName": "OCEANFIRST BANK, NA",
       "address": "",
-      "city": "BROOKLYN",
-      "stateCode": "NY",
+      "city": "TOMS RIVER",
+      "stateCode": "NJ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -147461,9 +147470,9 @@
     },
     {
       "routingNumber": "322273890",
-      "customerName": "BEVERLY HILLS CITY EFCU",
+      "customerName": "NUVISION FEDERAL CREDIT UNION",
       "address": "",
-      "city": "BEVERLY HILLS",
+      "city": "HUNTINGTON BEACH",
       "stateCode": "CA",
       "postalCode": "",
       "postalCodeExtension": ""
