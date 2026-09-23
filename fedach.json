@@ -1,7 +1,7 @@
 {
   "source": "Federal Reserve E-Payments Routing Directory",
   "effectiveDate": "The effective date of this FedACH directory is September 22, 2026.",
-  "syncedAt": "2026-09-22T10:41:30.713697+00:00",
+  "syncedAt": "2026-09-23T10:36:13.503255+00:00",
   "achParticipants": [
     {
       "routingNumber": "011000015",
@@ -6282,15 +6282,6 @@
       "address": "",
       "city": "HENRICO",
       "stateCode": "VA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "026009632",
-      "customerName": "MUFG BANK, LTD.",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -32674,15 +32665,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "067015478",
-      "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "067015546",
       "customerName": "CENTENNIAL BANK",
       "address": "",
@@ -33291,15 +33273,6 @@
       "address": "",
       "city": "ROSEMONT",
       "stateCode": "IL",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "071002341",
-      "customerName": "MUFG BANK, LTD",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -40374,15 +40347,6 @@
       "address": "",
       "city": "AMES",
       "stateCode": "IA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "073905268",
-      "customerName": "UNION BANK, N.A.",
-      "address": "",
-      "city": "GILBERT",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -65686,15 +65650,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "102006371",
-      "customerName": "THE NORTHERN TRUST COMPANY",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "102007008",
       "customerName": "MIDFIRST BANK",
       "address": "",
@@ -69376,15 +69331,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "104002894",
-      "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "104014109",
       "customerName": "UNITED REPUBLIC BANK",
       "address": "",
@@ -72009,15 +71955,6 @@
       "address": "",
       "city": "KANSAS CITY",
       "stateCode": "MO",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "107005979",
-      "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -82732,15 +82669,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "121143260",
-      "customerName": "WESTERN ALLIANCE BANK",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "121143273",
       "customerName": "UMB BANK, NA",
       "address": "",
@@ -83007,15 +82935,6 @@
       "address": "",
       "city": "ONATRIO",
       "stateCode": "CA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "121144463",
-      "customerName": "WESTERN ALLIANCE BANK",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -83371,15 +83290,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "121202062",
-      "customerName": "WESTERN ALLIANCE BANK",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "121202185",
       "customerName": "COLUMBIA BANK",
       "address": "",
@@ -83655,15 +83565,6 @@
       "address": "",
       "city": "MIDVALE",
       "stateCode": "UT",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122004162",
-      "customerName": "MUFG BANK, LTD. LOS ANGELES BRANCH",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84208,15 +84109,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122105469",
-      "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122105472",
       "customerName": "THE FOOTHIILLS BANK,ADO GLACIER BANK",
       "address": "",
@@ -84334,15 +84226,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122105757",
-      "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122105799",
       "customerName": "STEARNS BANK, NA",
       "address": "",
@@ -84357,15 +84240,6 @@
       "address": "",
       "city": "HICKSVILLE",
       "stateCode": "NY",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122105841",
-      "customerName": "PARKWAY BANK ARIZONA",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84388,15 +84262,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122105870",
-      "customerName": "MISSION BANK",
-      "address": "",
-      "city": "KINGMAN",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122105896",
       "customerName": "BNC NATIONAL BANK",
       "address": "",
@@ -84406,29 +84271,11 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122105906",
-      "customerName": "ONEAZ CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122105922",
       "customerName": "SOUTHWEST HERITAGE BANK",
       "address": "",
       "city": "ALAMOGORDO",
       "stateCode": "NM",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122105935",
-      "customerName": "ARIZONA FINANCIAL CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84447,15 +84294,6 @@
       "address": "",
       "city": "HELENA",
       "stateCode": "MT",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122105980",
-      "customerName": "WESTERN ALLIANCE BANK",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84505,29 +84343,11 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122106109",
-      "customerName": "ARIZONA FINANCIAL CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122106125",
       "customerName": "UMB, NA",
       "address": "",
       "city": "KANSAS CITY",
       "stateCode": "MO",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122106170",
-      "customerName": "PIMA FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "TUCSON",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84541,47 +84361,11 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122106222",
-      "customerName": "WEST VALLEY NATIONAL BANK",
-      "address": "",
-      "city": "GOODYEAR",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122106235",
       "customerName": "ALERUS FINANCIAL, N.A.",
       "address": "",
       "city": "GRAND FORKS",
       "stateCode": "ND",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122106251",
-      "customerName": "SOUTHWEST HERITAGE BANK",
-      "address": "",
-      "city": "SCOTTSDALE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122106277",
-      "customerName": "GOLDWATER BANK NA",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122106280",
-      "customerName": "WEST VALLEY NATIONAL BANK",
-      "address": "",
-      "city": "GOODYEAR",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84595,29 +84379,11 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122106316",
-      "customerName": "GATEWAY COMMERCIAL BANK",
-      "address": "",
-      "city": "MESA",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122106358",
       "customerName": "ALERUS FINANCIAL, N.A.",
       "address": "",
       "city": "GRAND FORKS",
       "stateCode": "ND",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122106390",
-      "customerName": "GATEWAY COMMERCIAL BANK",
-      "address": "",
-      "city": "MESA",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -84640,42 +84406,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122106468",
-      "customerName": "SCOTTSDALE COMMUNITY BANK",
-      "address": "",
-      "city": "SCOTTSDALE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122106471",
-      "customerName": "GAINEY BUSINESS BANK",
-      "address": "",
-      "city": "SCOTTSDALE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122106484",
-      "customerName": "INTEGRO BANK",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122106507",
-      "customerName": "ZENITH BANK & TRUST",
-      "address": "",
-      "city": "SCOTTSDALE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122187076",
       "customerName": "WELLS FARGO BANK",
       "address": "",
@@ -84694,15 +84424,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122187238",
-      "customerName": "DESERT FINANCIAL CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122187335",
       "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
       "address": "",
@@ -84717,15 +84438,6 @@
       "address": "",
       "city": "OKLAHOMA CITY",
       "stateCode": "OK",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122187746",
-      "customerName": "VANTAGE WEST CREDIT UNION DBA HUSTL",
-      "address": "",
-      "city": "TUCSON",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -85963,15 +85675,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122243635",
-      "customerName": "WESTERN ALLIANCE BANK",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122243648",
       "customerName": "COLUMBIA BANK",
       "address": "",
@@ -86067,15 +85770,6 @@
       "address": "",
       "city": "PORTERVILLE",
       "stateCode": "CA",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122243923",
-      "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -86665,24 +86359,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "122401723",
-      "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122401778",
-      "customerName": "WESTERN ALLIANCE BANK",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "122401781",
       "customerName": "US BANK",
       "address": "",
@@ -86733,15 +86409,6 @@
       "address": "",
       "city": "NORTH LAS VEGAS",
       "stateCode": "NV",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122402298",
-      "customerName": "WESTERN ALLIANCE BANK",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -86832,15 +86499,6 @@
       "address": "",
       "city": "SAN ANTONIO",
       "stateCode": "TX",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "122487200",
-      "customerName": "BANK OF NEVADA, A DIV OF W ALLIANCE",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -131333,7 +130991,7 @@
     },
     {
       "routingNumber": "283078846",
-      "customerName": "CHEMCO FEDERAL CREDIT UN",
+      "customerName": "OLD KENTUCKY HOME FCU",
       "address": "",
       "city": "BARDSTOWN",
       "stateCode": "KY",
@@ -138757,15 +138415,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "304973985",
-      "customerName": "FIRST CITIZENS BANK & TRUST COMPANY",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "304977677",
       "customerName": "COMMUNITY 1ST CREDIT UNION",
       "address": "",
@@ -141831,15 +141480,6 @@
       "address": "",
       "city": "CLOVIS",
       "stateCode": "NM",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "312270324",
-      "customerName": "SOUTHWEST HERITAGE BANK",
-      "address": "",
-      "city": "SCOTTSDALE",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
@@ -146875,132 +146515,6 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "322172108",
-      "customerName": "COCONINO FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "FLAGSTAFF",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172111",
-      "customerName": "PINAL COUNTY FED C U",
-      "address": "",
-      "city": "CASA GRANDE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172153",
-      "customerName": "CREDIT UNION WEST",
-      "address": "",
-      "city": "GLENDALE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172221",
-      "customerName": "MOHAVE COMMUNITY FCU",
-      "address": "",
-      "city": "KINGMAN",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172425",
-      "customerName": "ALHAMBRA CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172438",
-      "customerName": "U-HAUL FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172441",
-      "customerName": "ARIZONA CENTRAL CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172496",
-      "customerName": "ONEAZ CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172506",
-      "customerName": "SUNWEST FED CU",
-      "address": "",
-      "city": "GLENDALE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172739",
-      "customerName": "MARISOL FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172742",
-      "customerName": "FIRST CREDIT UNION",
-      "address": "",
-      "city": "CHANDLER",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172797",
-      "customerName": "ARIZONA FINANCIAL CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172807",
-      "customerName": "COPPER STATE CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172849",
-      "customerName": "COPPER STATE CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "322172852",
       "customerName": "AMERICA FIRST FEDERAL CREDIT UNION",
       "address": "",
@@ -147010,173 +146524,11 @@
       "postalCodeExtension": ""
     },
     {
-      "routingNumber": "322172881",
-      "customerName": "BANNER FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "PHOENIX",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322172904",
-      "customerName": "AERO FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "GLENDALE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322173055",
-      "customerName": "TRUWEST CREDIT UNION",
-      "address": "",
-      "city": "SCOTTSDALE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322173084",
-      "customerName": "RIM COUNTRY FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "SNOWFLAKE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322173149",
-      "customerName": "LANDINGS CREDIT UNION",
-      "address": "",
-      "city": "TEMPE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322173165",
-      "customerName": "PRESCOTT FCU",
-      "address": "",
-      "city": "PRESCOTT",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322173181",
-      "customerName": "FIRST AMERICAN CREDIT UNION",
-      "address": "",
-      "city": "CASA GRANDE",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322173194",
-      "customerName": "WINSLOW SANTA FE C U",
-      "address": "",
-      "city": "WINSLOW",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322173204",
-      "customerName": "WINSLOW SCHOOL EFCU",
-      "address": "",
-      "city": "WINSLOW",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322173217",
-      "customerName": "AVENIR FINANCIAL FCU",
-      "address": "",
-      "city": "YUMA",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322174575",
-      "customerName": "SOUTHEASTERN ARIZONA FEDCU",
-      "address": "",
-      "city": "DOUGLAS",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322174588",
-      "customerName": "AMERICAN SOUTHWEST CREDIT UNION",
-      "address": "",
-      "city": "SIERRA VISTA",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322174708",
-      "customerName": "VANTAGE WEST CREDIT UNION",
-      "address": "",
-      "city": "TUCSON",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322174795",
-      "customerName": "PIMA FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "TUCSON",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322174821",
-      "customerName": "PYRAMID CREDIT UNION",
-      "address": "",
-      "city": "TUCSON",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322174944",
-      "customerName": "HUGHES FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "TUCSON",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
       "routingNumber": "322174957",
       "customerName": "IDAHO CENTRAL CREDIT UNION",
       "address": "",
       "city": "CHUBBUCK",
       "stateCode": "ID",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322174986",
-      "customerName": "TUCSON FEDERAL CREDIT UNION",
-      "address": "",
-      "city": "TUCSON",
-      "stateCode": "AZ",
-      "postalCode": "",
-      "postalCodeExtension": ""
-    },
-    {
-      "routingNumber": "322175011",
-      "customerName": "COCHISE CREDIT UNION",
-      "address": "",
-      "city": "WILLCOX",
-      "stateCode": "AZ",
       "postalCode": "",
       "postalCodeExtension": ""
     },
